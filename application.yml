@@ -2,10 +2,10 @@ my:
   greeting: Hello Wold from config server
   list:
     values: one,two,three,four,five
-
-
-
 db:
   connection: connection-string-here-from-config-server
   host: 127.0.0
   port:1200
+app:
+  name: My App
+  description: Welcome to ${app.name}
