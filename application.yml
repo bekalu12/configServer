@@ -9,3 +9,4 @@ db:
 app:
   name: My App
   description: Welcome to ${app.name}
+  
